@@ -25,7 +25,7 @@ This variable will hold all the text strings for the language #}
 
 <body{% if lang in rtl_languages %} dir="rtl"{% endif %}>
     {% include "partials/nav.html" %}
-    <div class="content" data-turn-enter data-turn-exit>
+    <div class="content">
 
         {# Post page is the default #}
         {% block main_content %}

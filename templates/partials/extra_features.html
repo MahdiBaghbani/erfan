@@ -1,6 +1,6 @@
 {# Quick navigation buttons #}
 {% if macros_settings::evaluate_setting_priority(setting="quick_navigation_buttons", page=page, default_global_value=false) == "true" %}
-    <div id="button-container" class="hidden">
+    <div id="button-container">
         {# Button to go show a floating Table of Contents #}
         {% if page.toc %}
             <div id="toc-floating-container">
